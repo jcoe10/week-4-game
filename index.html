@@ -1,44 +1,57 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Collector</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+    
 </head>
+
 <body>
+
     <h1>Crystal Collector</h1>
+    <br><br>
 
     <p>You will be given a random number at the start of the game.</p>
+    <br><br>
     <p>There are 4 crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-    <p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+    <br><br>
+    <p>You win the game by matching your total score to the random number. You lose the game if your total score goes above
+        the random number.</p>
+    <br><br>
     <p>The value of each crystal is hidden from you until you click on it.</p>
+    <br><br>
     <p>Each time when the game starts, the game will change the values of each crystal.</p>
+    <br><br>
 
-    <h3 class = "randomnumber">Random Number:</h3>
+    <h3 id="randomNumber">Random Number:
+        <h3>
 
-    <img class= "redGem" src="assets/images/red.png">
-	<img class= "blueGem" src="assets/images/blue.png">
-	<img class= "rainbowGem" src="assets/images/rainbow.png">
-	<img class= "yellowGem" src="assets/images/yellow.png">
-
-
-    <h3 class = "totalscore">Your Total Score is:</h3>
-
-    <p id = "wins">Wins:</p>
-    <p id = "losses">Losses:</p>
-
-	
-</div>
-
-<!-- adding jQuery -->
-
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-
-<script type="text/javascript" src="assets/javascript/game.js"></script>
+            <img class="redGem" src="assets/images/red.png">
+            <img class="blueGem" src="assets/images/blue.png">
+            <img class="rainbowGem" src="assets/images/rainbow.png">
+            <img class="yellowGem" src="assets/images/yellow.png">
 
 
+            <h3 class="totalscore">Your Total Score is:</h3>
+            <br><br>
+            <p id="wins">Wins:</p>
+            <br><br>
+            <p id="losses">Losses:</p>
+
+
+
+            </div>
+
+            <!-- adding jQuery -->
+            
 </body>
+
 </html>
