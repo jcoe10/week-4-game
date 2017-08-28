@@ -1,2 +1,88 @@
 
+/*create a background*/
+body {
+    background: repeating-linear-gradient( 45deg, #9D7F80, #4B3E42 10px, #92C797 10px, #6F876B 20px);
+}
+/*give each class a color  and size*/
+.title {
+    text-align: center;
+    max-width: 250px;
+    background-color: darkblue;
+    color: white;
+    padding: 30px;
+    margin: 10px;
+}
 
+.instructions {
+    background-color: #2E002E;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    max-width: 500px;
+}
+
+.random {
+    background-color: gold;
+    color: purple;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-right: 60px;
+    margin: 10px;
+    max-width: 150px;
+    float: left;
+}
+
+.score {
+    background-color: teal;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 60px;
+    margin: 10px;
+    max-width: 250px;
+    float: left;
+    color: white;
+}
+
+.gems {
+    clear: both;
+}
+
+.myscore {
+    background-color: turquoise;
+    color: black;
+    margin: 10px;
+    max-width: 150px;
+    padding: 20px;
+}
+/*make the gem button numbers transparent and even*/
+button {
+    width: 150px;
+    height: 150px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    color: transparent;
+    
+}
+/*path the gems into the css url to make the buttons images show*/
+#redGem {
+    background-image: url("../images/red.png");
+}
+
+#blueGem {
+    background-image: url("../images/blue.png");
+}
+
+#rainbowGem {
+    background-image: url("../images/rainbow.png");
+}
+
+#yellowGem {
+    background-image: url("../images/yellow.png");
+}
